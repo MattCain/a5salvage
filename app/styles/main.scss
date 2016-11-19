@@ -1,0 +1,93 @@
+$icon-font-path: "/bower_components/sass-bootstrap/fonts/";
+
+@import 'sass-bootstrap/lib/bootstrap';
+
+body {
+    background: #E9E9E9 url('/images/light_noise_diagonal.png');
+    font-family: 'Lato';
+    font-size: 14px;
+}
+
+header {
+    background-color: #303030;
+    text-align: center;
+
+    img {
+        width: 227px;
+        height: 80px;
+    }
+}
+
+.container {
+    max-width: 850px;
+    background-color: #fff;
+    padding-top: 20px;
+
+    #main-col {
+        font-size: 16px;
+
+        h1 {
+            font-family: 'Open Sans';
+            font-wight: 400px;
+            font-size: 36px;
+            margin-top: 0px;
+            margin-bottom: 25px;
+        }
+
+        #manufacturers {
+            text-align: center;
+            margin-bottom: 25px;
+
+            img {
+                max-width: 100%;
+                max-height: 111px;
+            }
+        }
+    }
+
+    #sidebar {
+        font-family: 'Lato';
+        
+        h4 {
+            font-family: 'Lato';
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+    }
+
+    iframe {
+        margin-top: 20px;
+        width: 100%;
+        height: 450px;
+        border: none;
+    }
+
+    footer {
+        color: #555;
+    }
+}
+
+.centered {
+    text-align: center;
+}
+
+@media (min-width: $screen-md-min) {
+
+    #sidebar {
+        border-left: 1px solid #eee;
+        address {
+            margin-top: 10px;
+        }
+    }
+}
+
+/* Retina */
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+only screen and (-moz-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5) {
+    body {
+        background: #E9E9E9 url('/images/light_noise_diagonal_@2X.png');
+        background-size: 150px 150px;
+    }
+}

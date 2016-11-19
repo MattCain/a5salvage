@@ -1,0 +1,12 @@
+{
+  "name": "a5salvage",
+  "version": "0.0.0",
+  "dependencies": {
+    "sass-bootstrap": "~3.0.0",
+    "modernizr": "~2.6.2",
+    "jquery": "~1.10.2"
+  },
+  "devDependencies": {
+    "html5shiv": "~3.7.2"
+  }
+}
