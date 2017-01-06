@@ -303,8 +303,10 @@ module.exports = function (grunt) {
                 message: 'Built %sourceName% from commit %sourceCommit% on branch %sourceBranch%'
             },
             ghpages: {
-                remote: 'https://github.com/MattCain/a5salvage.git',
-                branch: 'gh-pages'
+                options: {
+                    remote: 'https://github.com/MattCain/a5salvage.git',
+                    branch: 'gh-pages'
+                }
             }
         }
     });
